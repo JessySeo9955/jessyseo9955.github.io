@@ -1,0 +1,31 @@
+# Jekyll build directory
+_site/
+
+# Jekyll cache and configuration
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby environment files
+*.gem
+*.rbc
+.bundle/
+vendor/
+
+# Mac OS X
+.DS_Store
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temporary files
+*.log
+
