@@ -4,37 +4,46 @@ title:  "[DevOps] AWS Lambda, API Gateway"
 date:   2025-05-19 20:27:14 -0400
 categories: jekyll update
 ---
+
+
 ## Project
 - DateTime Formatter
 - Java, Gradle, FatJar, AWS Lambda, AWS Gateway
 - Junit, Cucumber, AssertJ
 
 
+
 ## References
-<details>
-  <summary>API Gateway VS Load Balancer</summary>
+- [API Gateway VS Load Balancer](#reference1)
+- [API Gateway HTTP API VS  REST API](#reference2)
+- [Fat JAR vs AWS Lambda Layer](#reference3)
+- [java.time package](#reference4)
+
+
+<div id="reference1">
+
+##  API Gateway VS Load Balancer
 
 API Gateway is tailored for API management, serverless applications, and advanced API features (like security, rate limiting, etc.), while Load Balancers are more focused on distributing traffic to backend servers, typically for traditional web applications or microservices that are server-based (EC2, ECS).
-### Summary of Differences:
 
 | Feature | **API Gateway** | **Load Balancer** (ALB/NLB) |
-| --- | --- | --- |
+| --------|-----------------|-----------------------------|
 | **Purpose** | Manage and expose APIs | Distribute traffic across servers or instances |
 | **Protocols Supported** | HTTP/S, WebSocket | HTTP/S, TCP, UDP (ALB, NLB) |
 | **Serverless Support** | Deep integration with AWS Lambda | Not typically serverless-focused |
-| **Traffic Routing** | API-specific routing, path, method, query params, headers | Based on availability, host, and path |
-| **Advanced Features** | Request/response transformation, authentication, caching, rate limiting | Basic load balancing, health checks |
-| **Use Case** | REST APIs, WebSocket APIs, serverless apps | Web applications, microservices, EC2 instances, containers |
+ 
 
-</details>
+</div>
 
-<details>
-  <summary>API Gateway HTTP API VS  REST API </summary>
+<div id="reference2">
+
+##  API Gateway HTTP API VS  REST API
 
 - HTTP API (newer, simpler, cheaper)
 - REST API (older, more powerful, more expensive)
 
 ### Summary of Differences:
+
 | Feature | **HTTP API** (Recommended for most new projects) | **REST API** (Advanced use cases) |
 | --- | --- | --- |
 | **Pricing** | ✅ Cheaper (up to 70% less) | ❌ More expensive |
@@ -47,16 +56,19 @@ API Gateway is tailored for API management, serverless applications, and advance
 | **Caching** | ❌ No | ✅ Yes |
 | **API Gateway VPC Links** | ❌ No | ✅ Yes |
 | **Use Case** | 💡 Basic APIs, microservices, mobile backends | 💡 Complex APIs with transformations, legacy support |
-</details>
 
-<details>
-    <summary>Fat JAR vs AWS Lambda Layer </summary>
+</div>
+
+<div id="reference3">
+
+##  Fat JAR vs AWS Lambda Layer
 
 | Use Case | Recommended Approach |
 | --- | --- |
 | Simpler projects, fast iteration | ✅ Fat JAR |
 | Many functions sharing dependencies | 🔄 Fat JAR + Layers |
 | Enterprise-scale, optimized builds | ✅ Layers (with CI/CD) |
+
 ### Fat JAR
 When you build the Fat JAR, the contents of gson-2.8.8.jar are flattened and merged directly into the root of your Fat JAR. So your Fat JAR will look something like this:
 <pre>
@@ -77,13 +89,14 @@ my-application.jar
 │           └── ...
 └── ...                         (Other dependencies)
 </pre>
-</details>
+</div>
 
 
 
 
-<details>
-    <summary>java.time package</summary>
+<div id="reference4">
+
+## java.time package
 
 ### ✅ 1. **High-Precision Date/Time (Nanoseconds)**
 
@@ -259,4 +272,4 @@ Java is highly efficient for:
 * **Data-heavy applications** like **financial systems**, **scientific calculations**, or any system where accurate time handling is essential.
 
 
-</details>
+</div>
