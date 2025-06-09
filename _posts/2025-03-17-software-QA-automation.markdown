@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[QA automation] Software QA Automation"
+title:  "[Research] Software QA Automation"
 date:   2025-03-17 20:27:14 -0400
 categories: jekyll update
 ---

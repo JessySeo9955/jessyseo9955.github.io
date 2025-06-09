@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[DevOps] CI/CD Architecture"
+title:  "[DevOps] MonoRepo CI/CD Architecture"
 date:   2025-05-17 20:27:14 -0400
 categories: jekyll update
 ---
