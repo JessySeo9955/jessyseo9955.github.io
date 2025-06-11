@@ -7,6 +7,7 @@ categories: jekyll update
 
 ## Project
 - [[Repository] Weather Compare Frontend](https://github.com/JessySeo9955/indexedDB_weather)
+- [[Site] Weather Compare Frontend](https://weather-compare-a1d1e.web.app)
 - **IndexedDB** – for local data caching 
 - **Service Worker** – for background sync
 - **Web Components** – for building reusable, modular UI components
