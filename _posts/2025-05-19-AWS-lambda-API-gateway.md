@@ -10,7 +10,9 @@ categories: jekyll update
 - [[Repository] Weather Compare Serverless Rest API](https://github.com/JessySeo9955/indexedDB_weather_backend)
 - Java, Gradle, FatJar, AWS Lambda, AWS Gateway
 - Junit
-<img style="max-width: 100%; border: 1px solid #ddd" src="assets/img/weather_backend.png" />
+
+## Architecture flowchart
+<img style="max-width: 100%; border: 1px solid #ddd" src="assets/imgs/weather_backend.png" />
 
 ## CI/CD & Hosting
 
