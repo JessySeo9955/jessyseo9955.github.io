@@ -12,7 +12,7 @@ categories: jekyll update
 - Junit
 
 ## Architecture flowchart
-<img style="max-width: 100%; border: 1px solid #ddd" src="assets/imgs/weather_backend.png" />
+<img style="max-width: 100%; border: 1px solid #ddd" src="/assets/imgs/weather_backend.png" />
 
 ## CI/CD & Hosting
 
