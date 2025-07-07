@@ -27,7 +27,7 @@ This Nuxt starter includes:
   Preconfigured unit test environment using [Vitest](https://vitest.dev/) for component testing.
 
 - **End-to-End Testing with Playwright**  
-  E2E test setup using Cypress to ensure app behavior works across full user flows.
+  E2E test setup using Playwright to ensure app behavior works across full user flows.
 
 
 ## Why This Matters
