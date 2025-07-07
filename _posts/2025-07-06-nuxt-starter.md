@@ -10,6 +10,8 @@ Nuxt 3 starter that goes beyond the default setup provided by Nuxt.
 This custom starter is now available on [GitHub](https://github.com/JessySeo9955/nuxt_starter), 
 and it's designed for developers looking to kick off projects with a solid foundation.
 
+<img style="max-width: 100%; border: 1px solid #ddd" src="https://raw.githubusercontent.com/JessySeo9955/nuxt_starter/main/.github/images/structure.png" />
+
 ## What I Built
 
 This Nuxt starter includes:
