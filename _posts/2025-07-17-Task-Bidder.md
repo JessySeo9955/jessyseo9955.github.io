@@ -9,7 +9,7 @@ categories: jekyll update
 
 - Group Members: Jessy Seo, Kang Tian, Yuanyuan Xi
 - Start Date: 2025-08-10
-- [Github Repository]()
+- [Github Repository](https://github.com/JessySeo9955/Assignment2_Group9)
 
 
 ## Contribution
