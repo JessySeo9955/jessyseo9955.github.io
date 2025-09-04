@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Group Project] Financial Tracker"
-date: 2025-07-17 10:00:00 +0000
+date: 2025-08-10 10:00:00 +0000
 categories: jekyll update
 ---
 ## Financial Tracker
